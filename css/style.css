@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+}
+
+body {
+
+  color: white;
+}
+
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+li{
+
+margin-right: 10px;
+}
+
+.gym-icon {
+  width: 70px;
+  margin-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.navbar-nav {
+  margin-left: 1050px;
+}
+
+
+
+#home {
+  background-color: var(--bg-dark);
+  width: 100%;
+  height: 100%;
+
+}
+
+#home h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  margin-left: -100px;
+  width: 800px;
+  padding-top: 200px;
+
+}
+
+#home h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 85px;
+  font-weight: 100;
+  margin-left: -100px;
+  width: 800px;
+  padding-top: 60px;
+  padding-bottom: 250px;
+}
+
+#home b {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 85px;
+  font-weight: 100;
+
+
+}
+
+
+#home .line {
+  width: 300px;
+  height: 10px;
+  background-color: rgb(79, 79, 79);
+  margin-left: 150px;
+  margin-top: -60px;
+  border-radius: 50px;
+}
+
+#home .picture {
+  margin-left: 900px;
+  margin-top: -800px;
+
+
+}
+
+
+#workout {
+  background-color: var(--bg-darkhover);
+
+
+}
+
+#workout h1 {
+  color: var(--bg-primary);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  width: 1300px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+#workout h3 {
+  color: var(--bg-primary);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: proxima-nova;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 0em;
+  line-height: 1.6em;
+  text-transform: none;
+  padding-top: 50px;
+  text-align: start;
+}
+
+#workout p {
+  display: block;
+  font-size: 25px;
+  padding-bottom: 30px;
+
+}
+
+#workout .text {
+  width: 1000px;
+  margin-left: 150px;
+
+}
+
+#workout .line {
+  width: 990px;
+  height: 3px;
+  background-color: grey;
+
+}
+
+
+
+#menu {
+  background-color: var(--bg-dark);
+  color: var(--color-black);
+  display: flex;
+  text-align: center;
+  width: 100%;
+
+  padding-bottom: 100px;
+
+}
+
+#menu h3 {
+  padding-top: 50px;
+  color: var(--bg-primary);
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 0px;
+
+}
+
+#menu h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  width: 900px;
+  margin-left: 200px;
+  font-weight: 100;
+  padding-bottom: 100px;
+}
+
+#menu .col-6 {}
+
+#menu .food h4 {
+  width: 100px;
+  height: 35px;
+  background-color: var(--bg-primary);
+  color: var(--color-white);
+  border-radius: 10px;
+  font-family: 'roboto';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*backround dashed 1px*/
+#menu .price {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 20px;
+}
+
+
+#menu .money {
+  margin-left: 2%;
+  margin-top: -50px;
+}
+
+#menu p {
+  text-align: start;
+}
+
+
+
+
+
+
+#join-us {
+
+
+  text-align: center;
+  padding: 60px 20px;
+  height: 900px;
+  background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=action-athlete-barbell-841130.jpg&fm=jpg') no-repeat center center/cover;
+  mask-image: linear-gradient(yellow, transparent);
+  background-image: linear-gradient(right to left, black);
+
+
+}
+
+#join-us .container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#join-us h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#join-us button {
+  background-color: rgb(26, 42, 98);
+  color: white !important;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#join-us a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+#team {
+  background-color: var(--bg-darkhover);
+  color: var(--color-white);
+  width: 100%;
+  height: 700px;
+
+}
+
+#team h4 {
+  padding-top: 50px;
+  color: var(--bg-primary);
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 600px;
+
+}
+
+
+
+#team h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  width: 900px;
+  margin-left: 400px;
+  font-weight: 100;
+}
+
+#team .member1 {
+  width: 300px;
+  height: 400px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  margin-top: 50px;
+  color: var(--color-black);
+  transition: transform 500ms;
+
+}
+
+#team .member1:hover {
+  transform: scale(1.1);
+}
+
+#team .member2 {
+  width: 300px;
+  height: 400px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  margin-top: -400px;
+  margin-left: 330px;
+  color: var(--color-black);
+
+  transition: transform 500ms;
+}
+
+#team .member2:hover {
+  transform: scale(1.1);
+}
+
+#team .member3 {
+  width: 300px;
+  height: 400px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  margin-top: -400px;
+  margin-left: 660px;
+  color: var(--color-black);
+
+  transition: transform 500ms;
+
+}
+
+#team .member3:hover {
+  transform: scale(1.1);
+}
+
+#team .member4 {
+  width: 300px;
+  height: 400px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  margin-top: -400px;
+  margin-left: 980px;
+  color: var(--color-black);
+  transition: transform 500ms;
+
+}
+
+#team .member4:hover {
+  transform: scale(1.1);
+}
+
+#team .face {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+#team h3 {
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#team p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-lightgrey);
+}
+
+img,
+svg {
+  object-fit: cover;
+  background: cover;
+
+}
+
+
+
+
+
+
+#footer {
+  background-color: var(--bg-dark);
+  color: var(--color-white);
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+#footer .line1 {
+  width: 550px;
+  height: 1px;
+  margin-left: 300px;
+  margin-top: 120px;
+  background-color: rgb(121, 121, 121);
+}
+
+#footer .line2 {
+  width: 540px;
+  height: 1px;
+  margin-left: 20px;
+  margin-top: 120px;
+  background-color: rgb(121, 121, 121);
+}
+
+#footer .pizza {
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 20px;
+  rotate: 315deg;
+  padding: 10px;
+}
+
+#footer .col-12 {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -800px;
+  margin-top: 200px;
+  text-align: center;
+
+}
+
+
+#footer .text{
+display: flex;
+justify-content: space-between;
+align-items:flex-start;
+padding-top: 60px;
+}
+#footer p {
+  color: var(--color-lightgrey);
+}
+
+#footer .adres {
+
+  margin-left: -300px
+}
+
+
+#footer .social {
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+#footer .pizzas {
+  width: 70px;
+  display: flex;
+  margin-left: -1px;
+  
+
+}
+
+
+
+
+
+
+
+/* @media screen */
+
+
+
+@media screen and (max-width:320px) {
+  body {
+    width: 320px;
+  }
+
+  .gym-icon {
+    width: 50px;
+    margin-left: 50px;
+  }
+
+  #home h1 {
+    padding-top: 10px;
+    font-size: 70px;
+    margin-left: 0px;
+  }
+
+  #home .line {
+    width: 100px;
+    margin-left: 170px;
+
+  }
+
+  #home h2 {
+    font-size: 50px;
+    width: 300px;
+    margin: 0;
+  }
+
+  #home .picture {
+    width: 250px;
+    margin-left: 0px;
+    padding-top: 600px;
+    padding-bottom: 100px;
+
+  }
+
+  #workout h1 {
+    padding-top: 50px;
+    font-size: 19px;
+    margin-left: -500px;
+
+  }
+
+  #workout .text {
+    margin-left: 0;
+    margin-top: -100px;
+
+  }
+
+  #workout h3 {
+
+    font-size: 15px;
+  }
+
+  #workout p {
+    font-size: 10px;
+  }
+
+  #workout .line {
+    width: 250px;
+    background-color: var(--bg-black);
+
+  }
+
+
+
+  #menu h1 {
+    font-size: 30px;
+
+    margin-left: -300px;
+  }
+
+  #menu h3 {
+    font-size: 20px;
+
+
+
+  }
+
+  #menu h4 {
+    font-size: 10px;
+    width: 50px;
+    
+    
+
+
+  }
+
+
+  #menu .price {
+    margin-top: -50px;
+  }
+  #menu .row {
+    flex-direction: column;
+   
+  }
+
+  #menu h2 {
+    font-size: 20px;
+    width: 300px;
+
+  }
+
+  #menu .money {
+    margin-left: 100px;
+  }
+
+
+  #menu p {
+    font-size: 10px;
+    width: 300px;
+    margin-top: -100px;
+    padding-top: 50px;
+  }
+
+  #menu b {
+
+    width: 00px;
+    rotate: 270deg;
+    font-size: 5px;
+    margin-left: 100px;
+  }
+#menu .food{
+margin-top: 50px;
+text-align: center;
+
+}
+
+#team{
+  
+height: 100%;
+padding-bottom: 50px;
+}
+#team h4{
+  font-size: 20px;
+  flex-direction: column;
+  padding-left: 30px;
+}
+#team h1{
+  font-size: 20px;
+  flex-direction: column;
+  padding-left: 200px;
+}
+#team .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#team .member1{
+
+margin-top: 100px;
+margin-left: 500px;
+}
+#team .member2{
+  margin-top: 50px;
+
+  margin-left: 500px;
+  }
+  
+
+
+#team .member3{
+  margin-top: 50px;
+
+  margin-left: 500px;
+  }
+  
+  #team .member4{
+    margin-top: 50px;
+  
+    margin-left: 500px;
+    }
+    
+
+    #footer{
+      flex-direction: column;
+      height: 100%;
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+
+    #footer .pizza{
+width: 80px;
+margin-left: 120px;
+margin-top: -40px;
+    }
+
+    #footer .line1{
+     width: 80px;
+     margin-left: 20px;
+     margin-top:0px;
+    }
+    #footer .line2{
+      width: 80px;
+      margin-left: 210px;
+      margin-top:-40px;
+     }
+
+     #footer .text{
+      padding-left:25px;
+   margin-top:30px;
+      flex-direction: column;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+     }
+     #footer .book{
+      margin-left: -300px;
+      padding-top: 50px;
+     }
+     #footer .days{
+      margin-left: -300px;
+      padding-top: 50px;
+     } #footer .instagram{
+      margin-left: -307px;
+      padding-top: 50px;
+     
+     }
+  }
